@@ -1,0 +1,6 @@
+Options -Indexes
+
+<Files lib.php>
+    Order allow,deny
+    Deny from all
+</Files>

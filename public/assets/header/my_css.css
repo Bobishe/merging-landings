@@ -1,0 +1,125 @@
+.modal-content {
+    position: relative; }
+
+.modal-wrap {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 70px 0; }
+
+.modal-header {
+    padding-left: 0;
+    padding-right: 0; }
+
+.modal .close {
+    position: absolute;
+    right: 25px;
+    top: 20px;
+    border: none;
+}
+
+.modal-header {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    border: 0; }
+
+.modal-title {
+    display: block;
+    width: 100%;
+    margin-bottom: 12px;
+    font-size: 22px;
+    line-height: 27px;
+    font-family: "Arial";
+    font-weight: bold;
+    color: #272727;
+    text-align: center; }
+
+.modal-subtitle {
+    display: block;
+    width: 100%;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-family: "Montserrat";
+    color: #000;
+    text-align: center; }
+
+.modal form {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    margin-bottom: 20px; }
+
+.modal .form-offer {
+    margin-bottom: 30px;
+    font-family: "Montserrat Bold";
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.15;
+    color: #272727; }
+@media (max-width: 767.98px) {
+    .modal .form-offer {
+        text-align: left;
+        font-size: 18px; } }
+
+.modal .form-control-wrap {
+    display: block;
+    margin-bottom: 15px; }
+
+.modal .form-control {
+    height: 60px;
+    width: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+    background: #F2F6F8;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #9B9B9B;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+@media (max-width: 767.98px) {
+    .modal .form-control {
+        height: 55px; } }
+.modal .form-control::-webkit-input-placeholder {
+    color: #9B9B9B;
+    opacity: 1; }
+.modal .form-control::-moz-placeholder {
+    color: #9B9B9B;
+    opacity: 1; }
+.modal .form-control:-ms-input-placeholder {
+    color: #9B9B9B;
+    opacity: 1; }
+.modal .form-control::-ms-input-placeholder {
+    color: #9B9B9B;
+    opacity: 1; }
+.modal .form-control::placeholder {
+    color: #9B9B9B;
+    opacity: 1; }
+
+.modal .btn {
+    display: block;
+    width: 100%;
+    height: 65px;
+    margin-bottom: 20px; }
+@media (max-width: 767.98px) {
+    .modal .btn {
+        width: 100%;
+        height: 55px;
+        font-size: 16px; } }
+
+.modal .form-text {
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.2;
+    color: black;
+    text-align: center; }
+@media (max-width: 767.98px) {
+    .modal .form-text {
+        font-size: 14px; } }
+
+
+@media (max-width: 991px) {
+    .navbar-toggler{
+        margin-top: -55px;
+    }
+}
